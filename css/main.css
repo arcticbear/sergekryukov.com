@@ -73,7 +73,7 @@ p.paragraph, p.paragraph2 {
     font-size: 22px;
   }
 }
-.nav-link3,
+
 .nav-link2,
 .nav-link {
   text-decoration: none;
@@ -95,7 +95,7 @@ p.paragraph, p.paragraph2 {
   color: inherit;
 }
 a.nav-link2:default {
-
+	color:#222222;
 }
 a.nav-link2:hover {
 	color:#00C27C;
@@ -104,7 +104,7 @@ a.nav-link2:active {
 	color:#FFC600;
 }
 a.nav-link3:default {
-
+	color:#222222;
 }
 a.nav-link3:hover {
 	color:#00C27C;

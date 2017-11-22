@@ -294,21 +294,9 @@ p.paragraph {
 	.footer .footer-nav .col-3 {
 		width: 100%;
 	}
-}.ctas-input {
-	outline: none;
-	border: none;
-	border-radius: 3px;
-	font-size: 15px;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 15px;
-	width: 260px;
+}.ctas-button {
 	display: inline-block;
-}
-.ctas-button {
-	display: inline-block;
-	margin: 0 0 0 10px;
-	height: 40px;
+	height: 42px;
 	line-height: 38px;
 	padding: 0 30px;
 	background: #fff;
@@ -319,17 +307,17 @@ p.paragraph {
 	letter-spacing: .3px;
 	border: 1px solid white;
 	text-decoration: none;
+	color: black;
 }
-@media (max-width: 440px) {
-	.ctas-input,
-	.ctas-button {
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
-	.ctas-button {
-		margin: 10px 0 0 0;
-	}
+.ctas-button img,
+.ctas-button span {
+	display: inline-block;
+	vertical-align: middle;
+	opacity: .8;
+}
+.ctas-button img {
+	height: 18px;
+	margin-right: 10px;
 }.feature4 {
 	padding: 90px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);

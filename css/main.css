@@ -1,7 +1,13 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Rasa:300,400,500,600,700');
+*/
+/* @import url('https://fonts.googleapis.com/css?family=Overpass:200,300,700,900'); */
+/* @import url('https://fonts.googleapis.com/css?family=Karla:400,700'); */
 /*neutral*/
-* {
-	font-family: 'karla', sans-serif;
-}.ctas-button {
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,800,900');
+* {	font-family: 'Muli', sans-serif;}
+
+.ctas-button {
 	color: #444;
 }
 .ctas-button-2 {
@@ -15,7 +21,7 @@
 }
 .ctas-input {
 	background: rgba(0,0,0,.05)
-}@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+}
 *,
 *:before,
 *:after {
@@ -24,35 +30,41 @@
 }
 body {
   -webkit-font-smoothing: antialiased;
+  background-color: #A5ABB3;
 }
 /*text*/
 .heading {
-  font-weight: 100;
-  font-size: 50px;
-  line-height: 68px;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 200;
 }
 @media (max-width: 900px) {
 .heading {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 32px;
   }
 }
 .subheading {
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 900;
+  color: #333;
 }
 @media (max-width: 900px) {
   .subheading {
-    font-size: 26px;
-    line-height: 35px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
+
 .paragraph2,
 .paragraph {
-  font-size: 17px;
-  line-height: 32px;
-  font-weight: 100;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.heading + .subheading {
+  margin-top: 30px;
 }
 .heading + .paragraph {
   margin-top: 30px;
@@ -63,10 +75,10 @@ body {
 p.paragraph, p.paragraph2 {
   color: rgba(30,30,30,1);
 }
-.logo {
+a.logo {
   font-size: 30px;
   line-height: 30px;
-  font-weight: 900;
+  font-weight: 500;
 }
 @media (max-width: 420px) {
   .logo {
@@ -74,11 +86,80 @@ p.paragraph, p.paragraph2 {
   }
 }
 
+
+div.logo {
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: bottom;
+ object-fit: cover;
+ height: 45px;
+ max-width: 150px;
+ margin-bottom: 30px;
+ margin-left: 30px;
+ margin-right: 0px;
+}
+
+.logo.yandex {
+ background-image: url("../img/yandex/yandex_eng_logo.png");
+}
+.logo.rambler {
+ background-image: url("../img/rambler/rambler-logo@2x.png");
+}
+.logo.tutu {
+ background-image: url("../img/tutu/tutu-logo.png");
+}
+.logo.cian {
+ background-image: url("../img/cian/cian-logo.gif");
+}
+.logo.cinemood {
+ background-image: url("../img/cinemood/cinemood-logo@2x.png");
+ background-position: center;
+}
+.logo.intaxi {
+ background-image: url("../img/intaxi/intaxi-logo@2x.png");
+}
+@media (max-width: 900px) {
+.logo.yandex {
+}
+.logo.rambler {
+}
+.logo.tutu {
+}
+.logo.cian {
+ background-position: top;
+}
+.logo.cinemood {
+ background-position: center;
+}
+.logo.intaxi {
+ background-position: center;
+}
+}
+@media (max-width: 440px) {
+.logo.yandex {
+}
+.logo.rambler {
+ background-position: center;
+}
+.logo.tutu {
+ background-position: center;
+}
+.logo.cian {
+ background-position: bottom;
+}
+.logo.cinemood {
+ background-position: center;
+}
+.logo.intaxi {
+ background-position: center;
+}
+}
+
 .nav-link2,
 .nav-link {
   text-decoration: none;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 21px;
+  line-height: 32px;
   color: inherit;
 }
 .nav-link2
@@ -89,8 +170,8 @@ p.paragraph, p.paragraph2 {
 .nav-link3
 {
   text-decoration: none;
-  font-size: 23px;
-  line-height: 55px;
+  font-size: 21px;
+  line-height: 50px;
 	font-weight: 700;
   color: inherit;
 }
@@ -175,6 +256,7 @@ a.nav-link3:active {
 .col-11 {width: 91.666667%;}
 .col-12 {width: 100%;}
 
+
 /*containers*/
 .container-lrg,
 .container-sml {
@@ -196,6 +278,7 @@ a.nav-link3:active {
 }.header {
 	padding: 90px 0;
 	overflow: hidden;
+  background-color:
 }
 .header .centerdevices {
 	margin: 90px 0 0;
@@ -260,6 +343,7 @@ a.nav-link3:active {
 	padding: 90px 0;
 }
 .socialproof img {
+	object-fit: cover;
 	height: 45px;
 	max-width: 100%;
 	margin-bottom: 30px;
@@ -279,6 +363,12 @@ a.nav-link3:active {
 	}
 	.socialproof .logos {
 		flex-direction: row;
+	}
+	.socialproof img {
+		object-fit: cover;
+		height: 60px;
+		max-width: 100%;
+		margin-bottom: 30px;
 	}
 }.ctas-button,
 .ctas-button-2 {
@@ -419,3 +509,21 @@ a.nav-link3:active {
 		width: 100%;
 	}
 }
+
+
+/* ################################################ */
+
+
+h1.subheading span {
+display: inline-block;
+font-weight: 900;
+}
+@media (max-width: 900px) {
+h1.subheading span {
+display: inline-block;
+}}
+@media (max-width: 440px) {
+h1.subheading span {
+display: inline;
+font-weight: 700;
+}}

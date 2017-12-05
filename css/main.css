@@ -171,9 +171,9 @@ div.logo {
 {
   text-decoration: none;
   font-size: 26px;
-  line-height: 50px;
+  line-height: 65px;
 	font-weight: 800;
-  color: inherit;
+  color: #127DFF;
 }
 a.nav-link2:default {
 	color:#FFC600;
@@ -446,7 +446,7 @@ a.nav-link3:active {
 	margin-right: 10px;
 }.feature4 {
 	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-bottom: 0px solid rgba(0,0,0,.1);
 }
 @media (max-width: 900px) {
 	.feature4 .sidedevices {
@@ -462,7 +462,7 @@ a.nav-link3:active {
 	}
 }.feature4 {
 	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-bottom: 0px solid rgba(0,0,0,.1);
 }
 @media (max-width: 900px) {
 	.feature4 .sidedevices {
@@ -478,7 +478,7 @@ a.nav-link3:active {
 	}
 }.feature4 {
 	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-bottom: 0px solid rgba(0,0,0,.1);
 }
 @media (max-width: 900px) {
 	.feature4 .sidedevices {
@@ -494,7 +494,7 @@ a.nav-link3:active {
 	}
 }.feature4 {
 	padding: 90px 0;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-bottom: 0px solid rgba(0,0,0,.1);
 }
 @media (max-width: 900px) {
 	.feature4 .sidedevices {

@@ -450,3 +450,23 @@
 		height: calc(100vw * .65);
 	}
 }
+@media screen and (max-width: 900px) {
+	.sidedevices .browserwrapper .header-images {
+		position: relative;
+		white-space: nowrap;
+		vertical-align: top;
+		overflow: scroll;
+		width: calc(100% + 40px);
+		margin: 0 0 0 -20px;
+		padding-bottom: 60px;
+		-webkit-overflow-scrolling: touch;
+	}
+	.sidedevices .browserwrapper .browser {
+		width: 100%;
+		height: calc(100vw * .65);
+	}
+  .sidedevices .browserwrapper .browser .long {
+    width: 100%;
+    height: calc(100vw * .65);
+  }
+}

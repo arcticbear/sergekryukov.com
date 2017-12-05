@@ -285,6 +285,9 @@
 		height: 7px;
 		left: calc(50% - 25px);
 	}
+  .sidedevices .browserwrapper .browser .long {
+    height: ;
+  }
 	.sidedevices .iphoneipad2 .iphone:after {
 		width: 38px;
 		height: 38px;
@@ -399,7 +402,7 @@
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-	background: white;
+	background: none;
 }
 .sidedevices .browserwrapper .mask-img {
 	width: 100%;
@@ -417,6 +420,9 @@
 	padding: 22px 0 0 0;
 	top: 0;
 	left: 0;
+}
+.sidedevices .browserwrapper .browser .long {
+  max-height: 720;
 }
 .sidedevices .browserwrapper .browser:before {
 	content: "\25CF \25CF \25CF";
@@ -449,6 +455,9 @@
 		width: 100%;
 		height: calc(100vw * .65);
 	}
+  .sidedevices .browserwrapper .browser .long {
+    max-height: 720;
+  }
 }
 @media screen and (max-width: 900px) {
 	.sidedevices .browserwrapper .header-images {
@@ -465,8 +474,8 @@
 		width: 100%;
 		height: calc(100vw * .65);
 	}
-  .sidedevices .browserwrapper .browser .long {
+  .sidedevices .browserwrapper .long {
     width: 100%;
-    height: calc(100vw * .65);
+    max-height: 720;
   }
 }

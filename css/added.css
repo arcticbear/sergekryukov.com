@@ -52,6 +52,9 @@
 	color: #222222;
 }
 .title-preview .bold {
+	font-weight: black;
+}
+.title-preview .black {
 	font-weight: bold;
 }
 

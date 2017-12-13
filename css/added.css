@@ -118,7 +118,7 @@
 	color: #3800E0;
 }
 
-.link {
+a.link {
 	font-size: 19px;
 	font-weight: 500;
 	font-style: normal;
@@ -127,18 +127,19 @@
 	letter-spacing: normal;
 	text-align: left;
   text-decoration: none;
+  color: #6E00FF;
 }
-.link .bold {
-	font-weight: 800;
-}
-.link:default {
+a.link:default {
 	color: #6E00FF;
 }
-.link:hover {
+a.link:hover {
 	color: #5922FF;
 }
-.link:active {
+a.link:active {
 	color: #3800E0;
+}
+a.link .bold {
+	font-weight: 800;
 }
 
 span.interlines {

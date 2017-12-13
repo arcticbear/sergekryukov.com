@@ -142,3 +142,8 @@ span.interlines {
   display: inline-block;
   padding-bottom: 0px;
 }
+span.small {
+  font-size: 17px;
+  display: inline-block;
+  padding-bottom: 0px;
+}

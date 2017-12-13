@@ -188,10 +188,10 @@ a.nav-link3:default {
 	color:#6E00FF;
 }
 a.nav-link3:hover {
-	color:#5922FF;
+	color:#FFF63E; /* 5922FF */
 }
 a.nav-link3:active {
-	color:#3800E0;
+	color:#FFD300; /* 3800E0 */
 }
 .nav-link:not(:first-of-type) {
   margin-left: 20px;

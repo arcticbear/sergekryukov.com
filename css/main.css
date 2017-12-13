@@ -173,25 +173,25 @@ div.logo {
   font-size: 26px;
   line-height: 65px;
 	font-weight: 800;
-  color: #127DFF;
+  color: #FFFD00;
 }
 a.nav-link2:default {
-	color:#FFC600;
+	color:#FFFD00;
 }
 a.nav-link2:hover {
-	color:#FFCA11;
+	color:#C3FF00;
 }
 a.nav-link2:active {
-	color:#FFC600;
+	color:#AEFF2B;
 }
 a.nav-link3:default {
-	color:#EFBA00;
+	color:#FFFD00;
 }
 a.nav-link3:hover {
-	color:#FFCA11;
+	color:#C3FF00;
 }
 a.nav-link3:active {
-	color:#EFBA00;
+	color:#AEFF2B;
 }
 .nav-link:not(:first-of-type) {
   margin-left: 20px;

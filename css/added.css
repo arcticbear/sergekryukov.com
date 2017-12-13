@@ -107,15 +107,15 @@
 	line-height: 1.15;
 	letter-spacing: normal;
 	text-align: left;
-	color: #0073FF;
+	color: #6E00FF;
 } .contact-link .bold {
 	font-weight: 800;
 }
 .contact-link:hover {
-	color: #127DFF;
+	color: #5922FF;
 }
 .contact-link:active {
-	color: #006AEB;
+	color: #3800E0;
 }
 
 .link {
@@ -127,15 +127,18 @@
 	letter-spacing: normal;
 	text-align: left;
   text-decoration: none;
-	color: #FFFD00;
-} .link .bold {
+}
+.link .bold {
 	font-weight: 800;
 }
+.link:default {
+	color: #6E00FF;
+}
 .link:hover {
-	color: #C3FF00;
+	color: #5922FF;
 }
 .link:active {
-	color: #AEFF2B;
+	color: #3800E0;
 }
 
 span.interlines {

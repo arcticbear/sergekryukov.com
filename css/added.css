@@ -121,15 +121,15 @@
 	letter-spacing: normal;
 	text-align: left;
   text-decoration: none;
-	color: #0073FF;
+	color: #FFFD00;
 } .link .bold {
 	font-weight: 800;
 }
 .link:hover {
-	color: #127DFF;
+	color: #C3FF00;
 }
 .link:active {
-	color: #006AEB;
+	color: #AEFF2B;
 }
 
 span.interlines {

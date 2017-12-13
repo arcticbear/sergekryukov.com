@@ -175,22 +175,14 @@ div.logo {
 	font-weight: 800;
   color: #6E00FF;
 }
-.external-link
-{
-  text-decoration: none;
-  font-size: 19px;
-  line-height: 30px;
-	font-weight: 800;
-  color: #FFFD00;
-}
 a.nav-link2:default {
-	color:#FFFD00;
+	color:#6E00FF;
 }
 a.nav-link2:hover {
-	color:#C3FF00;
+	color:#5922FF;
 }
 a.nav-link2:active {
-	color:#AEFF2B;
+	color:#3800E0;
 }
 a.nav-link3:default {
 	color:#6E00FF;
@@ -200,15 +192,6 @@ a.nav-link3:hover {
 }
 a.nav-link3:active {
 	color:#3800E0;
-}
-a.external-link:default {
-	color:#FFFD00;
-}
-a.external-link:hover {
-	color:#C3FF00;
-}
-a.external-link:active {
-	color:#AEFF2B;
 }
 .nav-link:not(:first-of-type) {
   margin-left: 20px;

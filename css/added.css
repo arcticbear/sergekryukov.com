@@ -57,6 +57,9 @@
 .title-preview .black {
 	font-weight: black;
 }
+.title-preview .normal {
+	font-weight: 400;
+}
 
 .synopsis {
 	font-size: 19px;

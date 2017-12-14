@@ -1,0 +1,90 @@
+a.logo {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+@media (max-width: 420px) {
+  .logo {
+    font-size: 22px;
+  }
+}
+div.logo {
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: bottom;
+ object-fit: cover;
+ height: 45px;
+ max-width: 150px;
+ margin-bottom: 30px;
+ margin-left: 30px;
+ margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* LOGOTYPES
+
+.logo.yandex {
+ background-image: url("../img/yandex/yandex_eng_logo.png");
+}
+.logo.rambler {
+ background-image: url("../img/rambler/rambler-logo@2x.png");
+}
+.logo.tutu {
+ background-image: url("../img/tutu/tutu-logo.png");
+}
+.logo.cian {
+ background-image: url("../img/cian/cian-logo.gif");
+}
+.logo.cinemood {
+ background-image: url("../img/cinemood/cinemood-logo@2x.png");
+ background-position: center;
+}
+.logo.intaxi {
+ background-image: url("../img/intaxi/intaxi-logo@2x.png");
+}
+*/
+
+
+@media (max-width: 900px) {
+.logo.yandex {
+}
+.logo.rambler {
+}
+.logo.tutu {
+}
+.logo.cian {
+ background-position: top;
+}
+.logo.cinemood {
+ background-position: center;
+}
+.logo.intaxi {
+ background-position: center;
+}
+}
+@media (max-width: 440px) {
+.logo.yandex {
+}
+.logo.rambler {
+ background-position: center;
+}
+.logo.tutu {
+ background-position: center;
+}
+.logo.cian {
+ background-position: bottom;
+}
+.logo.cinemood {
+ background-position: center;
+}
+.logo.intaxi {
+ background-position: center;
+}
+}

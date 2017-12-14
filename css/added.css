@@ -325,17 +325,8 @@ text-align: left;
 	font-weight: 400;
 }
 
-.synopsis {
-	font-size: 19px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.4;
-	letter-spacing: normal;
-	text-align: left;
-	color: #222222;
-}
-span.indention {
+
+span.indention, span.space•after {
   display: inline-block;
   padding-bottom: 10px;
 }

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>StatusDay</title>
+<link rel="stylesheet" type="text/css" href="files/css/styles.css" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#top-menu a").click(function(){
+		$("#top-menu a").not(this).removeClass("selected");
+		$(this).addClass("selected");			
+	});
+});
+	
+	
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		speed: 2500
+	});
+});
+
+</script>
+</head>
+<body>
+	
+    <div class="header-wrapper">
+	<div class="header">
+	  	<a href="/" class="logo"></a>
+        
+        <div id="top-menu">
+		<ul class="simple">
+			<li class="new"><a class="" href="#"></a></li>
+			<li class="favorite"><a class="" href="#"></a></li>
+			<li class="sad"><a class="" href="#"></a></li>
+            <li class="fun"><a class="" href="#"></a></li>
+            <li class="love"><a class="" href="#"></a></li>
+            <li class="life"><a class="" href="#"></a></li>
+            <li class="clever"><a class="" href="#"></a></li>
+		</ul>
+	  </div> <!-- /top-menu -->
+        
+      <div class="add-new-status-link"><a href="/" class=""><span></span>Добавить статус</a></div>
+        
+    </div> <!-- /header -->
+    </div> <!-- /header-wrapper -->
+    
+
+    <div class="mainpage-status-area-wrapper">
+	<div class="mainpage-status-area">
+    	
+        <div class="status-macbook">
+            <div class="slideshow">
+                <img src="files/images/screens-icq.jpg" />
+                <img src="files/images/screens-vk.jpg" />
+                <img src="files/images/screens-odn.jpg" />
+            </div>
+        </div>
+		<div class="status-area">
+        	<div class="status-tooltip">
+            	<p class="valign-center">
+            		<a href="#">Такой хороший день, что даже не знаю, то ли выпить чаю, то ли повеситься.</a>
+                </p>
+                <p class="text-status-ie"></p>
+<!-- Такой хороший день, что даже не знаю, то ли выпить чаю, то ли повеситься.
+aaaaaaaaaa aaaaaaaaa aaaaa aaaaaaaa aaa aaaaaaaaaaa aaaaaaaaaaaaaaaaa aaa aaaaaa aaaaaaaaaa aa aaaaaaaaaaa aaaaaaa aaaa aa aaaa aaaaaa aaa aaaaa aaa aaaaaaa aaaa
+ -->                
+            </div>
+        	<div class="links-area">
+            Запостить &mdash; <a href="#" class="social-button-16px vk"></a> <a href="#" class="social-button-16px fb"></a> <a href="#" class="social-button-16px twitter"></a>
+            </div>
+            <div class="refresh-status-link"><a href="/" class=""><span></span>Обновить статус</a></div>
+        </div>
+	
+		<div class="clearfix"></div>
+	</div> <!-- /mainpage-status-area -->
+    </div> <!-- /mainpage-status-area-wrapper -->    
+    
+    
+    <div class="page-content-wrapper">
+	<div class="page-content">
+    
+    	<div class="description vk">
+        	<div class="title"></div>
+            <h1 class="cloud">Для Вконтакте</h1>
+            <div class="pict"></div>
+            <p class="text">
+            StatusDay — это лучшие статусы для В контакте, статусы для Одноклассники, статусы для ICQ, для популярных социальных сетей.
+            </p>
+            <p class="text">
+            Ежедневно пользователи сети ищут себе лучшие статусы для В контакте, статусы для Одноклассников, статусы для ICQ с целью выразить грустные, смешные, любовные, прикольные, жизненные, пикантные эмоции на своих страницах социальных сетей.
+            </p>
+        </div> <!-- /description.vk -->
+        
+		<div class="description odnoklassniki">
+        	<div class="title"></div>
+            <h1 class="cloud">Для Одноклассников</h1>
+            <div class="pict"></div>
+            <p class="text">
+            StatusDay — это лучшие статусы для В контакте, статусы для Одноклассники, статусы для ICQ, для популярных социальных сетей.
+            </p>
+            <p class="text">
+            Ежедневно пользователи сети ищут себе лучшие статусы для В контакте, статусы для Одноклассников, статусы для ICQ с целью выразить грустные, смешные, любовные, прикольные, жизненные, пикантные эмоции на своих страницах социальных сетей.
+            </p>
+        </div> <!-- /description.odnoklassniki -->
+    	
+        <div class="description icq">
+        	<div class="title"></div>
+            <h1 class="cloud">Для «аськи»</h1>
+            <div class="pict"></div>
+            <p class="text">
+            Ежедневно пользователи сети ищут себе лучшие статусы для В контакте, статусы для Одноклассников, статусы для ICQ с целью выразить грустные, смешные, любовные, прикольные, жизненные, пикантные эмоции на своих страницах социальных сетей.
+            </p>
+        </div> <!-- /description.icq -->
+        
+		
+
+	</div> <!-- /page-content -->
+    </div> <!-- /page-content-wrapper -->
+
+</body>
+</html>

@@ -6,7 +6,22 @@
 /*neutral*/
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800&subset=latin-ext');
 * {	font-family: 'Nunito Sans', sans-serif;}
+a {
+-moz-transition: color .2s ease-in-out,border-bottom-color .2s ease-in-out;
+-webkit-transition: color .2s ease-in-out,border-bottom-color .2s ease-in-out;
+-ms-transition: color .2s ease-in-out,border-bottom-color .2s ease-in-out;
+transition: color .2s ease-in-out,border-bottom-color .2s ease-in-out;
+color: inherit;
+text-decoration: none;
 
+/*
+
+a{-moz-transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;-webkit-transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;-ms-transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;border-bottom:1px dotted;color:inherit;text-decoration:none}a:hover{border-bottom-color:transparent;
+color:#9bf1ff!important}
+a:active{color:#53e3fb!important}
+
+*/
+}
 .ctas-button {
 	color: #444;
 }
@@ -175,7 +190,7 @@ div.logo {
 	font-weight: 800;
   color: #033EB4;
 }
-a.nav-link2:default {
+a.nav-link2 {
 	color:#6E00FF;
 }
 a.nav-link2:hover {
@@ -184,7 +199,7 @@ a.nav-link2:hover {
 a.nav-link2:active {
 	color:#3800E0;
 }
-a.nav-link3:default {
+a.nav-link3 {
 	color:#033EB4;
 }
 a.nav-link3:hover {
@@ -275,10 +290,10 @@ a.nav-link3:active {
 .centerdevices,
 .sidedevices {
   position: relative;
-}.header {
+}
+.header {
 	padding: 40px 0;
 	overflow: hidden;
-  background-color:
 }
 .header .centerdevices {
 	margin: 90px 0 0;

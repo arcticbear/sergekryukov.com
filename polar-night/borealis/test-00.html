@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Arcticbear</title>
+<link rel="stylesheet" type="text/css" href="/files/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="/files/css/northernlights-styles.css" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15015099-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+jQuery.fx.interval = 100;
+	$(document).ready(function() {
+		if ($.browser.msie) {
+			$('.iemustdie').show();
+			$('.aurora, .aurora-7').load(function() {
+				$(this).each(function() {
+					$(this).css({
+						left: Math.floor(Math.random() * 15 + 120)
+					});
+					aurora_msie(this);
+				});
+			});
+		} else {
+			$('.aurora-9, .aurora-3, .aurora-7').load(function() {
+				$(this).each(function() {
+					$(this).css({
+						left: Math.floor(Math.random() * 15 + 130)
+					});
+					aurora(this);
+				});
+			});
+		}
+	});
+		
+	function aurora(el) {
+		$(el).animate({
+				left: Math.floor(Math.random() * 15 + 130),
+				opacity: (Math.floor(Math.random() * 100) / 100) * 0.4 + 0.2
+			}, 3000, function() {
+				aurora(this);
+			}
+		);
+	}
+	
+	function aurora_msie(el) {
+		$(el).animate({
+				left: Math.floor(Math.random() * 15 + 120),
+			}, 3000, function() {
+				aurora_msie(this);
+			}
+		);
+	}
+</script>
+
+</head>
+<body>
+<div class="page-wrapper">
+	<div class="sea-depth-northernlights"></div>
+	<div class="stars"></div>
+	<div class="sky-shine-northernlights"></div>
+	<div class="ice-surface-northernlights"></div>
+	<div class="ice-cut-northernlights"></div>
+    
+	<div class="page-content">
+
+<img class="aurora-3" src="/files/images/northernlights-3.png" title="" alt="" />
+        <img class="aurora-7" src="/files/images/northernlights-7.png" title="" alt="" />
+        <img class="aurora-9" src="/files/images/northernlights-9.png" title="" alt="" />
+
+        <div class="horizon-northernlights"></div>
+        <a href="/" class="arcticbear-constellation"></a>
+<div class="fish-northernlights"></div>
+        <div class="submarine-northernlights"></div>
+        <div class="iglu"></div>
+<div class="bear-northernlights"></div>
+<div class="iemustdie"></div>
+
+		<div class="title">
+        	<h1>Дизайн. Интерфейсы. <br/>И арктический медведь.</h1>
+            <h2 class="contactme">Пишите &mdash; <a class="" href="mailto:hello@arcticbear.ru"><span></span>hello@arcticbear.ru</a></h2>
+        </div>
+
+        <div class="contacts-northernlights">
+            <ul>
+                <li><a class="contact-link flickr" target="_blank" href="http://www.flickr.com/photos/arcticbear/"><span></span>Flickr</a></li>
+                <li><a class="contact-link twitter" target="_blank" href="http://twitter.com/arcticbears"><span></span>Twitter</a></li>
+                <li><a class="contact-link linkedin" target="_blank" href="http://ru.linkedin.com/in/arcticbear"><span></span>Linkedin</a></li>
+          </ul>
+            <p class="previos-version">
+            	<span>&larr;</span><a href="/iceberg/">До того как всё замёрзло<br/> и наступила арктическая ночь</a>
+			</p>     
+	  </div> <!-- /contacts-northernlights -->
+
+	</div> <!-- /page-content -->
+</div> <!-- /page-wrapper -->
+</body>
+</html>

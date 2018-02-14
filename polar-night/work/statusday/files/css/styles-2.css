@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { height:100%; font-size:62.5%}
+
+.min-width-404 { min-width:1000px;}
+
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { margin:0; padding:0;}
+table {	border-collapse:collapse; border-spacing:0; font-family:Myriad-pro, Helvetica, Arial, sans-serif; overflow-y:scroll;}
+fieldset, img { border:0;}
+/* all list styles */
+ul { list-style:inside; list-style-type:square;}
+
+body { height:100%; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; background:#fff url(../images/pagebg.png) top left repeat;}
+
+
+
+
+
+
+
+.contact-link { position:relative; padding-left:30px; text-align:center; line-height:26px; padding-top:4px;}
+.contact-link span { position:absolute; top:0; left:0; width:24px; height:24px;}
+.contact-link.flickr span { background:transparent url(../images/logos_flickr.png) 0 -2px no-repeat;}
+.contact-link.twitter span { background:transparent url(../images/logos_twitter.png) left top no-repeat;}
+.contact-link.gmail span { background:transparent url(../images/logos_gmail.png) left top no-repeat;}
+.contact-link.linkedin span { background:transparent url(../images/linkedin-logo.png) 0 -1px no-repeat;}
+.contact-link { color:#fff; text-decoration:underline;}
+.contact-link:visited { color:#fff;}
+.contact-link:hover { text-decoration:none;}
+
+.comingsoon { color:#fff; text-align:center; font-size:14px;}
+
+a { color:#0c72c1;}
+a:visited { }
+a:hover { text-decoration:none;}
+
+h1,h2,h3,h4,h5,h6 { font-family:Helvetica, Arial, sans-serif; font-weight:normal; color:#000;}
+h1 { font-size:1.8em;}
+h2 { font-size:1.6em;}
+h3 { font-size:1.4em;}
+h4 { font-size:1.3em;}
+h5 { }
+h6 { }
+h1.title_text { width:490px; font-size:1em; margin-bottom:15px;}
+h2 { font-size:1.2em; font-weight:bold; padding-bottom:10px;}
+
+.w600px { width:600px;}
+
+.page-wrapper { width:100%;}
+.header-wrapper { width:100%;}
+.header { height:100px; width:960px; margin:0px auto;}
+.page-content-wrapper { width:960px; margin:0px auto;}
+.page-content { width:960px; margin:0px auto; position:relative; padding:0px 10px; top:0px;}
+
+.logo {
+	display:block;
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:235px;
+	height:67px;
+	background:transparent url(../images/statusday-logo.png) center center no-repeat;
+}
+
+#top-menu { position:absolute; left:400px; top:40px;}
+#top-menu ul { list-style:none none;}
+#top-menu ul li { padding:2px 0px; display:-moz-inline-stack; display:inline-block; vertical-align:top; margin-right:10px; zoom:1; *display:inline;}
+#top-menu ul li a { display:block; width:26px; height:26px; background:url(../images/statusday-icons.png) center center no-repeat;}
+#top-menu ul li a:visited {}
+#top-menu ul li a:hover {}
+
+#top-menu ul li.new a { background-position:0px 0px;}
+#top-menu ul li.new a:hover, #top-menu ul li.new a.selected { background-position:0px -26px;}
+#top-menu ul li.favorite a { background-position:-26px 0px;}
+#top-menu ul li.favorite a:hover, #top-menu ul li.favorite a.selected { background-position:-26px -26px;}
+#top-menu ul li.sad a { background-position:-52px 0px;}
+#top-menu ul li.sad a:hover, #top-menu ul li.sad a.selected { background-position:-52px -26px;}
+#top-menu ul li.fun a { background-position:-78px 0px;}
+#top-menu ul li.fun a:hover, #top-menu ul li.fun a.selected { background-position:-78px -26px;}
+#top-menu ul li.love a { background-position:-104px 0px;}
+#top-menu ul li.love a:hover, #top-menu ul li.love a.selected { background-position:-104px -26px;}
+#top-menu ul li.life a { background-position:-130px 0px;}
+#top-menu ul li.life a:hover, #top-menu ul li.life a.selected { background-position:-130px -26px;}
+#top-menu ul li.clever a { background-position:-156px 0px;}
+#top-menu ul li.clever a:hover, #top-menu ul li.clever a.selected { background-position:-156px -26px;}
+
+.header .add-new-status-link { position:absolute; top:45px; right:20px;}
+.header .add-new-status-link a { position:relative; display:block; padding-left:45px; line-height:26px; color:#000; font-weight:bold; text-decoration:none;}
+.header .add-new-status-link a:hover { color:#555; }
+.header .add-new-status-link a:visited { color:#000;}
+.header .add-new-status-link a span { display:block; width:39px; height:26px; position:absolute; top:0; left:0; background:url(../images/addnew.png) no-repeat; background-position:0px 0px;}
+.header .add-new-status-link a:hover span { background-position:0px -26px;}
+
+.mainpage-status-area { position:absolute; top:15px; left:250px; width:325px; height:236px;}
+.mainpage-status-area .status-area { width:600px; height:147px; background:url(../images/status-area.png) top left no-repeat; z-index:10;}
+.mainpage-status-area .status-area a { }
+.mainpage-status-area .status-macbook {}
+.mainpage-status-area .links-area {}
+
+.status-macbook { position:absolute; top:140px; left:50px; width:325px; height:236px; background:url(../images/macbook.png) top left no-repeat;}
+.slideshow { position:relative; top:17px; left:46px;}
+.slideshow img { width:231px; height:130px; position:absolute; top:0px; left:0px; opacity:0; display:none;}
